@@ -1,0 +1,8 @@
+---
+events:
+  - event: pull_request
+    build: true
+    tests:
+      - name: basic tests
+        description: Basic tests
+        cmd: true
